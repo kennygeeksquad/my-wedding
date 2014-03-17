@@ -54,16 +54,11 @@ class PagesController extends AppController {
 		}
 		$page = $subpage = $title_for_layout = null;
 
-		if (!empty($path[0])) {
-			$page = $path[0];
-		}
-		if (!empty($path[1])) {
-			$subpage = $path[1];
-		}
-		if (!empty($path[$count - 1])) {
-			$title_for_layout = Inflector::humanize($path[$count - 1]);
-		}
-		$this->set(compact('page', 'subpage', 'title_for_layout'));
+		$meta_for_layout = "Deana & Matt - 15th January 2015, Champoluc, Italy. The website has been styled in a parallax fashion to give information to our guests.";
+
+		$title_for_layout = "Deana and Matt's wedding.";
+
+		$this->set(compact('page', 'subpage', 'title_for_layout', 'meta_for_layout'));
 
 		try {
 			$this->render(implode('/', $path));

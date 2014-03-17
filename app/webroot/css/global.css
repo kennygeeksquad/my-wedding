@@ -1,0 +1,13 @@
+html { min-height: 100%; }
+body { background: url('/img/snow-pattern.jpg'); width: 100%; min-height: 100%; }
+
+h1.intro { color: #fff; padding-top: 200px; font: 100px/1em "Raleway", sans-serif; }
+h2.intro { color: #fff; font: 50px/1em "Raleway", sans-serif; padding-top: 15px; }
+h3.intro { color: #fff; font: 24px/1em "Raleway", sans-serif; padding-top: 15px; } 
+
+section { width: 100%; min-height: 800px; }
+.opacity { background: rgba(0,0,0,0.35); height: 800px; }
+.section-1 { background: url('/img/section1.jpg') center no-repeat; background-size: cover; }
+.section-2 { height: 800px; }
+
+.content { width: 960px; margin: 0 auto; text-align: center; height: inherit; }
