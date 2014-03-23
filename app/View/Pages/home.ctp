@@ -1,4 +1,4 @@
-<section id="home" class="pure-g-r" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% 50px;" data-anchor-target="#home">
+<section id="home" class="pure-g-r" data-start="background-position: 50% 0px;" data-top-bottom="background-position: 50% 50px;" data-anchor-target="#home">
 	<div class="opacity pure-u-1">
 		<div class="content pure-u-1" data-center="opacity: 1" data-100-top="opacity: 0" data-anchor-target="#home h3">
 			<h1 class="intro">Matt and Deana</h1>
