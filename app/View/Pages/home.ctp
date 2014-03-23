@@ -1,4 +1,4 @@
-<section id="home" class="pure-g-r" data-start="background-position: 50% 0px;" data-top-bottom="background-position: 50% 50px;" data-anchor-target="#home">
+<section id="home" class="pure-g-r" data-start="background-position: 50% 0px;" data-top-bottom="background-position: 50% 100px;" data-anchor-target="#home">
 	<div class="opacity pure-u-1">
 		<div class="content pure-u-1" data-start="opacity: 1" data-center="opacity: 1" data-50-top="opacity: 0" data-anchor-target="#home h3">
 			<h1 class="intro">Matt and Deana</h1>
@@ -21,7 +21,7 @@
   </div>
 </section>
 
-<section id="accomodation" class="pure-g-r" data-bottom-top="background-position: 50% -50px" data-top="background-position: 50% 0px" data--200-top="background-position: 50% 50px" data-anchor-target="#accomodation">
+<section id="accomodation" class="pure-g-r" data-bottom-top="background-position: 50% -100px" data-top="background-position: 50% 0px" data--200-top="background-position: 50% 100px" data-anchor-target="#accomodation">
   <div class="opacity pure-u-1">
     <div class="content pure-u-1" data-bottom="opacity: 0" data-center="opacity: 1" data-anchor-target="#accomodation h2">
       <h2>Where we’re staying</h2>

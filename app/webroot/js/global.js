@@ -3,7 +3,7 @@ $(document).ready(function(){
   function adjustHeight(){
     var s = skrollr.init({
 render: function(data) {
-        
+        smoothScrolling=true;
             //Debugging - Log the current scroll position.
             console.log(data.curTop);
         }
