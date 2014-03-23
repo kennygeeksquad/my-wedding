@@ -12,7 +12,7 @@
 </head>
 <body>
   <?php echo $this->Session->flash(); ?>
-  <main>
+  <main id="skrollr-body">
     <?php echo $this->fetch('content'); ?>
   </main>
   <?php #echo $this->element('sql_dump'); ?>
