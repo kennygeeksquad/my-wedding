@@ -1,6 +1,6 @@
 <section id="home" class="pure-g-r" data-start="background-position: 50% 0px;" data-top-bottom="background-position: 50% 50px;" data-anchor-target="#home">
 	<div class="opacity pure-u-1">
-		<div class="content pure-u-1" data-center="opacity: 1" data-100-top="opacity: 0" data-anchor-target="#home h3">
+		<div class="content pure-u-1" data-start="opacity: 1" data-center="opacity: 1" data-50-top="opacity: 0" data-anchor-target="#home h3">
 			<h1 class="intro">Matt and Deana</h1>
 			<h2 class="intro">We're getting married</h2>
 			<h3 class="intro">Champoluc, Italy - 15th Janauary 2015</h3>

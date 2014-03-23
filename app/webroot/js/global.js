@@ -1,7 +1,15 @@
 $(document).ready(function(){
 
   function adjustHeight(){
-    var s = skrollr.init();
+    var s = skrollr.init({
+render: function(data) {
+        
+            //Debugging - Log the current scroll position.
+            console.log(data.curTop);
+        }
+
+    });
+
     height = $(window).height();
 
     if (height<=800) {
