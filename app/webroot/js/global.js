@@ -12,6 +12,10 @@ $(document).ready(function(){
       $(this).height(height);
     })
 
+    $('.content').not('.snow').each(function(){
+      $(this).css('padding-top', height/4);
+    })
+
     s.refresh($('#home'));
   }
 
