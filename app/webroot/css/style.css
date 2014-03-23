@@ -3,19 +3,26 @@ body { width: 100%; min-height: 100%; font: 18px/1.5em 'Raleway', sans-serif; }
 
 /*font-family: 'Calligraffitti', cursive;*/
 
-h1, h2, h3 { font-family: 'Calligraffitti', cursive; }
-.snow h2 { color: #ce2027; font-size: 50px; line-height: 1em; }
+h1, h2, h3 { font-family: 'Calligraffitti', cursive; color: #fff; }
+h2 { font-size: 50px; }
+.snow h2 { color: #ce2027; line-height: 1em; }
 h1.intro { color: #fff; font-size: 100px; line-height: 1em; }
 h2.intro { color: #fff; font-size: 50px; line-height: 1em; }
 h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; } 
-p { margin-top: 40px; }
+p { margin-top: 40px; color: #fff; line-height: 2em; text-shadow: 1px 1px #000; }
+.snow p { color: #000; text-shadow: 1px 1px #fff; }
+b { font-weight: 600; }
+a { color: #ef8d01; font-weight: 600; text-decoration: none; }
 
-.button { text-decoration: none; background: transparent; border: 2px solid #fff; border-radius: 10px; text-transform: uppercase; font-size: 24px; color: #fff; display: block; height: 67px; width: 262px; margin: 0 auto; line-height: 3em; }
+.button { text-decoration: none; background: transparent; border: 2px solid #fff; border-radius: 10px; text-transform: uppercase; font-size: 24px; color: #fff; display: block; height: 67px; width: 262px; margin: 0 auto; line-height: 3em; font-weight: 400; }
 .snow .button { color: #ce2027; border-color: #ce2027; }
 
-section { text-align: center; width: 100%; height: 100%; min-height: 800px; }
+section { text-align: center; width: 100%; height: 100%; min-height: 850px; }
+section:nth-child(even) { min-height: 450px; }
+section:nth-child(even) .content { min-height: 250px; padding-top: 75px; }
 
-.opacity { background: rgba(0,0,0,0.3); height: 100%; min-height: 800px; }
-.content { width: 100%; height: 100%; min-height: 400px; padding-top: 200px; }
+.opacity { background: rgba(0,0,0,0.3); height: 100%; min-height: 850px; }
+.content { width: 100%; height: 100%; min-height: 450px; padding-top: 200px; }
 
-#home { background: url('/img/slide1.jpg') center no-repeat; background-size: cover; }
+#home { background: url('/img/home.jpg') center no-repeat; background-size: cover; }
+#accomodation { background: url('/img/accomodation.jpg') center no-repeat; background-size: cover; }
