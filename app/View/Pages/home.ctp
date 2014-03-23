@@ -21,9 +21,9 @@
   </div>
 </section>
 
-<section id ="accomodation" class="pure-g-r">
+<section id="accomodation" class="pure-g-r" data-bottom-top="background-position: 50% -50px" data-top="background-position: 50% 0px" data--200-top="background-position: 50% 50px" data-anchor-target="#accomodation">
   <div class="opacity pure-u-1">
-    <div class="content pure-u-1">
+    <div class="content pure-u-1" data-bottom="opacity: 0" data-center="opacity: 1" data-anchor-target="#accomodation h2">
       <h2>Where we’re staying</h2>
       <p>The Bride and Groom will be staying here in Hotel de Champoluc <b>January 11-18th 2015</b>.<br />
       This hotel is Ski in Ski, out meaning it’s right next to the slopes.<br />
@@ -31,4 +31,8 @@
     </div>
      <a href="#ceremony" class="button">Ceremony</a>
   </div>
+</section>
+
+<section id="ceremony" class="snow pure-g-r">
+
 </section>
