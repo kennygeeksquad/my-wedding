@@ -5,7 +5,7 @@
   <title><?php echo $title_for_layout; ?></title>
   <meta name="description" content="<?php echo $meta_for_layout; ?>" />
   <link href="/favicon.ico" type="image/x-icon" rel="icon" />
-  <link href='http://fonts.googleapis.com/css?family=Calligraffitti|Raleway:400,600' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Calligraffitti|Roboto:300,500,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/css/reset.css">
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
