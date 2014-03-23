@@ -20,7 +20,7 @@ render: function(data) {
       $(this).height(height);
     })
 
-    $('.content').not('.snow').each(function(){
+    $('.content').not('.snow .content').each(function(){
       $(this).css('padding-top', height/4);
     })
 
