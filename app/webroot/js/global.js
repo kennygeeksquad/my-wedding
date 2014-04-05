@@ -23,6 +23,7 @@ $(document).ready(function(){
     })
 
     $('.middle').css('padding-top', height/4);
+    $('.middle').css('padding-bottom', height/4);
 
     s.refresh($('#home'));
   }

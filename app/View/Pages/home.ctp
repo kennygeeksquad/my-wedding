@@ -49,10 +49,12 @@
 <section id="photos" class="pure-g-r">
   <div class="middle">
   <div class="opacity pure-u-1">
-    <img src="img/dnm1.png">
-    <img src="img/dnm2.png">
-    <img src="img/dnm3.png">
-    <img src="img/dnm4.png">
+  <div class="pure-g-r">
+    <img class="pure-u-1-4" src="img/dnm1.png">
+    <img class="pure-u-1-4" src="img/dnm2.png">
+    <img class="pure-u-1-4" src="img/dnm3.png">
+    <img class="pure-u-1-4" src="img/dnm4.png">
+  </div>
   </div>
   </div>
 </section>
@@ -71,7 +73,9 @@
   <article class="pure-u-1">
     <h2>Leave a Message</h2>
     <p>Can’t make it to the wedding? Worry not!<br />Leave us a message below.</p>
+    <div class="pure-g-r">
     <?php echo $this->element('message/form'); ?>
+    </div>
   </article>
 </section>
 

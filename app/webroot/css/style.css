@@ -18,8 +18,8 @@ a { color: #ef8d01; font-weight: 400; text-decoration: none; }
 .snow .button { color: #ce2027; border-color: #ce2027; }
 
 section { text-align: center; width: 100%; height: 100%; }
-section:nth-child(even) { min-height: 450px; }
-section:nth-child(even) article { height: 250px; padding-top: 75px; }
+section.snow { min-height: 450px; padding-bottom: 100px; }
+section.snow article { height: 250px; padding: 75px 0; }
 
 .opacity { background: rgba(0,0,0,0.3); height: 100%; }
 article { width: 100%; height: 50%; padding-top: 13%; }
@@ -28,16 +28,19 @@ article { width: 100%; height: 50%; padding-top: 13%; }
 #accommodation { background: url('/img/accommodation.jpg') center no-repeat; background-size: cover; }
 #ceremony .button { display: inline-block; }
 #photos .opacity { padding: 20px 0; height: auto; }
-#photos .opacity img { background: #fff; vertical-align: middle; border: 10px solid #fff; border-radius: 250px; margin: 4%; }
+#photos .opacity img { background: #fff; vertical-align: middle; border: 10px solid #fff; border-radius: 250px; margin: 4%; width: 190px; }
 #rsvp { background: url('/img/rsvp.jpg') center no-repeat; background-size: cover; }
 
-#rsvp form { padding-top: 30px; }
-#rsvp form .pure-u-1-3 { margin: 0 3%; }
+#rsvp form, #message form { padding-top: 30px; }
 #rsvp .input { margin-bottom: 20px; padding: 0 15%; }
-#rsvp .input input, select { width: 90%; padding-left: 10%; height: 34px; border: none; font-size: 22px; }
+#message .input { padding: 0 15%; }
+#message .textarea { padding: 0 7%; }
+#rsvp .input input, select, #message .input input { width: 90%; padding-left: 10%; height: 34px; border: none; font-size: 22px; }
+#message .input textarea { width: 98%; }
 #rsvp .input select { width: 100%; }
 #rsvp .submit { margin-top: 75px; padding: 0 11%; }
-#rsvp .submit input { width: 90%; padding: 0 5%; height: 34px; color: #fff; background: #ce2027; border: none; font-size: 22px; border-radius: 5px; }
+#message .submit { padding: 0 11%; }
+#rsvp .submit input, #message .submit input { width: 90%; padding: 0 5%; height: 34px; color: #fff; background: #ce2027; border: none; font-size: 22px; border-radius: 5px; }
 input::-webkit-input-placeholder { color: #000; }
 .hotel input { background: rgba(255,255,255,0.5) url('/img/icon-home.png') 3px center no-repeat; background-size: 7%; }
 .name input { background: rgba(255,255,255,0.5) url('/img/icon-person.png') 3px center no-repeat; background-size: 8%; }
