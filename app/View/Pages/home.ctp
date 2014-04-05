@@ -46,11 +46,20 @@
   </div>
 </section>
 
-<section id="photos" class="snow pure-g-r">
+<section id="photos" class="pure-g-r">
+  <div class="middle">
   <div class="opacity pure-u-1">
     <img src="img/dnm1.png">
     <img src="img/dnm2.png">
     <img src="img/dnm3.png">
     <img src="img/dnm4.png">
   </div>
+  </div>
+</section>
+
+<section id="rsvp" class="pure-g-r">
+  <article class="pure-u-1">
+    <h2>RSVP</h2>
+      <p>If you’ve decided to join us on our special day, please fill out the form below.</p>
+  </article>
 </section>
