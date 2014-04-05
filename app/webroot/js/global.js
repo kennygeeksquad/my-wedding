@@ -14,12 +14,13 @@ $(document).ready(function(){
       height = 800;
     }
 
-    $('section').not('.snow').each(function(){
+    $('section').each(function(){
       $(this).height(height);
     })
 
-    $('article').not('.snow article').each(function(){
+    $('article').each(function(){
       $(this).css('padding-top', height/4);
+      $(this).css('height', height/2);
     })
 
     $('.middle').css('padding-top', height/4);

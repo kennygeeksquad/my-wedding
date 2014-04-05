@@ -42,7 +42,7 @@
       We hope that you can join us.</p>
     </article>
     <a href="#rsvp" class="button">Rsvp</a>
-    <a href="#messages" class="button">Messages</a>
+    <a href="#message" class="button">Messages</a>
   </div>
 </section>
 
