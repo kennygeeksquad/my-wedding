@@ -24,6 +24,8 @@ render: function(data) {
       $(this).css('padding-top', height/4);
     })
 
+    $('.middle').css('padding-top', height/4);
+
     s.refresh($('#home'));
   }
 

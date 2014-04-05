@@ -27,7 +27,6 @@ article { width: 100%; height: 50%; padding-top: 13%; }
 #home { background: url('/img/home.jpg') center no-repeat; background-size: cover; }
 #accommodation { background: url('/img/accommodation.jpg') center no-repeat; background-size: cover; }
 #ceremony .button { display: inline-block; }
-#photos .middle { padding-top: 200px; }
 #photos .opacity { padding: 20px 0; height: auto; }
 #photos .opacity img { background: #fff; vertical-align: middle; border: 10px solid #fff; border-radius: 250px; margin: 4%; }
 #rsvp { background: url('/img/rsvp.jpg') center no-repeat; background-size: cover; }
