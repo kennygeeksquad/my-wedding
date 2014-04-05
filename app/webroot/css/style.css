@@ -18,7 +18,7 @@ a { color: #ef8d01; font-weight: 400; text-decoration: none; }
 .snow .button { color: #ce2027; border-color: #ce2027; }
 
 section { text-align: center; width: 100%; height: 100%; }
-section.snow { min-height: 450px; padding-bottom: 100px; }
+section.snow { min-height: 450px; padding-bottom: 5%; }
 section.snow article { height: 250px; padding: 75px 0; }
 
 .opacity { background: rgba(0,0,0,0.3); height: 100%; }
