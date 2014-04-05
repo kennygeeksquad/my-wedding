@@ -60,6 +60,23 @@
 <section id="rsvp" class="pure-g-r">
   <article class="pure-u-1">
     <h2>RSVP</h2>
-      <p>If you’ve decided to join us on our special day, please fill out the form below.</p>
+    <p>If you’ve decided to join us on our special day, please fill out the form below.</p>
+    <div class="pure-g-r">
+    <?php echo $this->element('rsvp/form'); ?>
+    </div>
+  </article>
+</section>
+
+<section id="message" class="pure-g-r">
+  <article class="pure-u-1">
+    <h2>Leave a Message</h2>
+    <p>Can’t make it to the wedding? Worry not!<br />Leave us a message below.</p>
+    <?php echo $this->element('message/form'); ?>
+  </article>
+</section>
+
+<section id="messages" class="pure-g-r">
+  <article class="pure-u-1">
+    <h2>Your Messages</h2>
   </article>
 </section>

@@ -2,12 +2,10 @@ $(document).ready(function(){
 
   function adjustHeight(){
     var s = skrollr.init({
-render: function(data) {
+    render: function(data) {
         smoothScrolling=true;
-            //Debugging - Log the current scroll position.
-            console.log(data.curTop);
-        }
-
+        console.log(data.curTop);
+      }
     });
 
     height = $(window).height();
@@ -30,5 +28,7 @@ render: function(data) {
   }
 
   adjustHeight();
+
+  $(window).on("resize", adjustHeight());
 
 })

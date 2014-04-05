@@ -5,12 +5,12 @@ body { width: 100%; min-height: 100%; font: 18px/1.5em 'Roboto', sans-serif; fon
 
 h1, h2, h3 { font-family: 'Calligraffitti', cursive; color: #fff; }
 h2 { font-size: 50px; }
-.snow h2 { color: #ce2027; line-height: 1em; }
-h1.intro { color: #fff; font-size: 100px; line-height: 1em; }
-h2.intro { color: #fff; font-size: 50px; line-height: 1em; }
-h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; } 
-p { margin-top: 40px; color: #fff; line-height: 2em; text-shadow: 1px 1px #000; }
-.snow p { color: #000; text-shadow: 1px 1px #fff; }
+.snow h2, #message h2 , #messages h2 { color: #ce2027; line-height: 1em; text-shadow: 1px 1px #fff; }
+h1.intro { color: #fff; font-size: 100px; line-height: 1em; text-shadow: 1px 1px #000; }
+h2.intro { color: #fff; font-size: 50px; line-height: 1em; text-shadow: 1px 1px #000; }
+h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; text-shadow: 1px 1px #000; } 
+p, h2 { margin-top: 40px; color: #fff; line-height: 2em; text-shadow: 1px 1px #000; }
+.snow p, #message p, #messages p { color: #000; text-shadow: 1px 1px #fff; }
 b { font-weight: 400; }
 a { color: #ef8d01; font-weight: 400; text-decoration: none; }
 
@@ -18,7 +18,7 @@ a { color: #ef8d01; font-weight: 400; text-decoration: none; }
 .snow .button { color: #ce2027; border-color: #ce2027; }
 
 section { text-align: center; width: 100%; height: 100%; }
-section:nth-child(even), #photos { min-height: 450px; }
+section:nth-child(even) { min-height: 450px; }
 section:nth-child(even) article { height: 250px; padding-top: 75px; }
 
 .opacity { background: rgba(0,0,0,0.3); height: 100%; }
@@ -30,3 +30,15 @@ article { width: 100%; height: 50%; padding-top: 13%; }
 #photos .opacity { padding: 20px 0; height: auto; }
 #photos .opacity img { background: #fff; vertical-align: middle; border: 10px solid #fff; border-radius: 250px; margin: 4%; }
 #rsvp { background: url('/img/rsvp.jpg') center no-repeat; background-size: cover; }
+
+#rsvp form { padding-top: 30px; }
+#rsvp form .pure-u-1-3 { margin: 0 3%; }
+#rsvp .input { margin-bottom: 20px; padding: 0 15%; }
+#rsvp .input input, select { width: 90%; padding-left: 10%; height: 34px; border: none; font-size: 22px; }
+#rsvp .input select { width: 100%; }
+#rsvp .submit { margin-top: 75px; padding: 0 11%; }
+#rsvp .submit input { width: 90%; padding: 0 5%; height: 34px; color: #fff; background: #ce2027; border: none; font-size: 22px; border-radius: 5px; }
+input::-webkit-input-placeholder { color: #000; }
+.hotel input { background: rgba(255,255,255,0.5) url('/img/icon-home.png') 3px center no-repeat; background-size: 7%; }
+.name input { background: rgba(255,255,255,0.5) url('/img/icon-person.png') 3px center no-repeat; background-size: 8%; }
+.length select { background: rgba(255,255,255,0.5) url('/img/icon-cal.png') 3px center no-repeat; background-size: 8%; }
