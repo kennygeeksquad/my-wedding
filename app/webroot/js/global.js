@@ -14,13 +14,24 @@ $(document).ready(function(){
       height = 800;
     }
 
-    $('section').each(function(){
+    $('section').not('.snow').each(function(){
       $(this).height(height);
     })
 
-    $('article').each(function(){
+    $('section.snow').each(function(){
+      $(this).height(height/2);
+    })
+
+    $('#message').height(height/1.5);
+
+    $('article').not('.half').each(function(){
       $(this).css('padding-top', height/4);
       $(this).css('height', height/2);
+    })
+
+    $('article.half').each(function(){
+      $(this).css('padding-top', 20);
+      $(this).css('height', height/3);
     })
 
     $('.middle').css('padding-top', height/4);
