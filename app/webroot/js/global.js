@@ -9,7 +9,7 @@ $(document).ready(function(){
     });
 
     height = $(window).height();
-
+    
     if (height<=800) {
       height = 800;
     }
