@@ -2,11 +2,7 @@ $(document).ready(function(){
 
   function adjustHeight(){
     var s = skrollr.init({
-      smoothScrolling=true;
-        forceHeight=false;
-    render: function(data) {
-        console.log(data.curTop);
-      }
+      forceHeight: false
     });
 
     height = $(window).height();
