@@ -4,6 +4,7 @@ $(document).ready(function(){
     var s = skrollr.init({
     render: function(data) {
         smoothScrolling=true;
+        forceHeight=false;
         console.log(data.curTop);
       }
     });
