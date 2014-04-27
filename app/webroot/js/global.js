@@ -44,4 +44,15 @@ $(document).ready(function(){
 
   $(window).on("resize", adjustHeight());
 
+  $('#info').click(function(){
+    $('#accommodation .opacity').css('background-color', 'rgba(0,0,0,0.8)');
+    $('.panel').fadeIn('slow');
+    return false;
+  });
+
+  $('#accommodation .opacity').click(function(){
+    $('#accommodation .opacity').css('background-color', 'rgba(0,0,0,0.3)');
+    $('.panel').fadeOut('fast');
+  });
+
 })

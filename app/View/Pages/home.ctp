@@ -27,9 +27,27 @@
       <h2>Where we’re staying</h2>
       <p>The Bride and Groom will be staying here in Hotel de Champoluc <b>January 11-18th 2015</b>.<br />
       This hotel is Ski in Ski, out meaning it’s right next to the slopes.<br />
-      If you’re thinking of joining us. More info is available <a href="#">here</a> or you can <a href="mailto:matthewstephens@digidev.co.uk">contact us</a></p>
+      If you’re thinking of joining us. More info is available <a href="#" id="info">here</a> or you can <a href="mailto:matthewstephens@digidev.co.uk">contact us</a></p>
     </article>
      <a href="#ceremony" class="button">Ceremony</a>
+    <div class="panel pure-g-r">
+    <div class="pure-u-1-2">
+      <h2>A week</h2>
+      <p>The best deal we found was provided by Laura, a travel agent at our local Thomson. Please contact her on the below email address, adding “FAO Laura” in the subject line to be included in our plans and travel.</p>
+      <p>Please quote the ref: <b>106355</b> in your email so that Laura can give you the correct info.</p>
+      <a href="mailto:gillingham@thomson-shop.co.uk">gillingham@thomson-shop.co.uk</a>
+      <p>Hotel de Champoluc, Champoluc, Italy</p>
+      <a href="www.crystalski.co.uk">www.crystalski.co.uk</a>
+    </div>
+    <div class="pure-u-1-2">
+      <h2>Less than a week</h2>
+      <p>We understand a week, if you don’t Snowboard could be a little too much. Feel free to give yourself a short break and of course share our special day.</p>
+      <p>Below is a link showing short breaks and lots of different hotels to suit everyones budget.</p>
+      <p>Please be aware that booking with the below doesn’t include flights. The closest airport is Turin which is a 90 minute trasnfer to Champoluc.</p>
+      <a href="www.ski-2.com">www.ski-2.com</a>
+      <p>Check out <a href="www.easyjet.com">www.easyjet.com</a> for flights.</p>
+    </div>
+    </div>
   </div>
 </section>
 
