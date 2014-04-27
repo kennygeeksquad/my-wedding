@@ -11,9 +11,9 @@
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<body>
+<body id="skrollr-body">
   <?php echo $this->Session->flash(); ?>
-  <main id="skrollr-body">
+  <main>
     <?php echo $this->fetch('content'); ?>
   </main>
   <?php #echo $this->element('sql_dump'); ?>
