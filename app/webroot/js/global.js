@@ -2,9 +2,9 @@ $(document).ready(function(){
 
   function adjustHeight(){
     var s = skrollr.init({
-    render: function(data) {
-        smoothScrolling=true;
+      smoothScrolling=true;
         forceHeight=false;
+    render: function(data) {
         console.log(data.curTop);
       }
     });
