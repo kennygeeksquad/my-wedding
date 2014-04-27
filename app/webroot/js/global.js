@@ -79,4 +79,16 @@ $(document).ready(function(){
     $('.panel').fadeOut('fast');
   });
 
+  $.fn.scrollTo = function() {
+    var element = $(this).data('scroll');
+    var scroll = $(element).offset().top;
+    $('body').animate({
+      scrollTop: scroll
+    }, 3000);
+  };
+
+  $('a.button').click(function(){
+    $(this).scrollTo(this);
+  });
+
 })

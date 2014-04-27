@@ -5,7 +5,7 @@
 			<h2 class="intro">We're getting married</h2>
 			<h3 class="intro">Champoluc, Italy - 15th Janauary 2015</h3>
 		</article>
-    <a href="#venue" class="button" data-center="opacity: 1" data-100-top="opacity: 0" data-anchor-target="#home .button">Venue</a>
+    <a data-scroll="#venue" class="button" data-center="opacity: 1" data-100-top="opacity: 0" data-anchor-target="#home .button">Venue</a>
 	</div>
 </section>
 
@@ -17,7 +17,7 @@
       The ceremony and reception will be held in <b>Champoluc Italy</b>.<br />
       There will be snow so make sure you wrap up warm.</p>
     </article>
-    <a href="#accommodation" class="button">Accommodation</a>
+    <a data-scroll="#accommodation" class="button">Accommodation</a>
   </div>
 </section>
 
@@ -29,7 +29,7 @@
       This hotel is Ski in Ski, out meaning it’s right next to the slopes.<br />
       If you’re thinking of joining us. More info is available <a href="#" id="info">here</a> or you can <a href="mailto:matthewstephens@digidev.co.uk">contact us</a></p>
     </article>
-     <a href="#ceremony" class="button">Ceremony</a>
+     <a data-scroll="#ceremony" class="button">Ceremony</a>
     <div class="panel pure-g-r">
     <div class="pure-u-1-2">
       <h2>A week</h2>
@@ -59,8 +59,8 @@
       Photographs will also be taken on the mountain including some action shots.<br />
       We hope that you can join us.</p>
     </article>
-    <a href="#rsvp" class="button">Rsvp</a>
-    <a href="#message" class="button">Messages</a>
+    <a data-scroll="#rsvp" class="button">Rsvp</a>
+    <a data-scroll="#message" class="button">Messages</a>
   </div>
 </section>
 

@@ -12,7 +12,7 @@ h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; text-shadow: 1px 1p
 p, h2 { margin-top: 20px; color: #fff; line-height: 2em; text-shadow: 1px 1px #000; }
 .snow p, #message p, #messages p { color: #000; text-shadow: 1px 1px #fff; }
 b { font-weight: 400; }
-a { color: #ef8d01; font-weight: 400; text-decoration: none; }
+a { color: #ef8d01; font-weight: 400; text-decoration: none; cursor: pointer; }
 p { font-size: 16px; }
 
 .button { text-decoration: none; background: transparent; border: 2px solid #fff; border-radius: 10px; text-transform: uppercase; font-size: 24px; color: #fff; display: block; height: 67px; width: 262px; margin: 0 auto; line-height: 2.8em; -webkit-font-smoothing: antialiased; }
