@@ -60,6 +60,7 @@
 </section>
 
 <section id="rsvp" class="pure-g-r">
+  <div class="opacity pure-u-1">
   <article class="pure-u-1">
     <h2>RSVP</h2>
     <p>If you’ve decided to join us on our special day, please fill out the form below.</p>
@@ -67,6 +68,7 @@
     <?php echo $this->element('rsvp/form'); ?>
     </div>
   </article>
+  </div>
 </section>
 
 <section id="message" class="pure-g-r snow">
