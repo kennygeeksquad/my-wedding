@@ -5,7 +5,7 @@ body { width: 100%; min-height: 100%; font: 18px/1.5em 'Roboto', sans-serif; fon
 
 h1, h2, h3 { font-family: 'Calligraffitti', cursive; color: #fff; }
 h2 { font-size: 50px; }
-.snow h2, #message h2 , #messages h2 { color: #ce2027; line-height: 1em; text-shadow: 1px 1px #fff; }
+.snow h2, #message h2 , #messages h2 { color: #ce2027; line-height: 2em; text-shadow: 1px 1px #fff; }
 h1.intro { color: #fff; font-size: 100px; line-height: 1em; text-shadow: 1px 1px #000; }
 h2.intro { color: #fff; font-size: 50px; line-height: 1em; text-shadow: 1px 1px #000; }
 h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; text-shadow: 1px 1px #000; }
@@ -56,10 +56,14 @@ input::-webkit-input-placeholder { color: #000; }
   h1.intro { font-size: 45px; }
   h2.intro { font-size: 30px; margin-top: 20px; }
   h3.intro { font-size: 18px; }
+  h2 { font-size: 35px; padding-top: 20px; margin-top: 0; }
+  p { font-size: 14px; }
+  #photos .opacity img { width: 30%; }
 }
 
 @media (max-width: 320px) {
   h1.intro { font-size: 40px; }
-  h2.intro { font-size: 28px; }
+  h2.intro, h2 { font-size: 28px; }
   h3.intro { font-size: 15px; }
+  h2 { font-size: 30px; }
 }

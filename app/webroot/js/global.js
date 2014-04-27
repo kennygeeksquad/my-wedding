@@ -18,24 +18,47 @@ $(document).ready(function(){
       $(this).height(height);
     })
 
-    $('section.snow').each(function(){
-      $(this).height(height/2);
-    })
+    if (height < 700) {
 
-    $('#message').height(height/1.5);
+      $('section.snow').each(function(){
+        $(this).height(height);
+      })
 
-    $('article').not('.half').each(function(){
-      $(this).css('padding-top', height/4);
-      $(this).css('height', height/2);
-    })
+      $('#message').height(height);
 
-    $('article.half').each(function(){
-      $(this).css('padding-top', 20);
-      $(this).css('height', height/3);
-    })
+      $('article.half').each(function(){
+        $(this).css('height', height/1.5);
+      })
 
-    $('.middle').css('padding-top', height/4);
-    $('.middle').css('padding-bottom', height/4);
+      $('article').not('.half').each(function(){
+        $(this).css('height', height/1.5);
+      })
+
+      $('.middle').css('padding-top', height/8);
+      $('.middle').css('padding-bottom', height/8);
+
+    } else {
+
+      $('section.snow').each(function(){
+        $(this).height(height/2);
+      })
+
+      $('article.half').each(function(){
+        $(this).css('padding-top', 20);
+        $(this).css('height', height/3);
+      })
+
+      $('article').not('.half').each(function(){
+        $(this).css('padding-top', height/4);
+        $(this).css('height', height/2);
+      })
+
+      $('#message').height(height/1.5);
+
+      $('.middle').css('padding-top', height/4);
+      $('.middle').css('padding-bottom', height/4);
+
+    }
 
     s.refresh($('#home'));
   }
