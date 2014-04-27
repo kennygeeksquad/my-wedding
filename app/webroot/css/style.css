@@ -51,3 +51,6 @@ input::-webkit-input-placeholder { color: #000; }
 .name input { background: rgba(255,255,255,0.5) url('/img/icon-person.png') 3px center no-repeat; background-size: 8%; }
 .length select { background: rgba(255,255,255,0.5) url('/img/icon-cal.png') 3px center no-repeat; background-size: 8%; }
 
+@media (max-width: 767px) {
+
+}

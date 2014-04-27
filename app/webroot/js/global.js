@@ -10,8 +10,8 @@ $(document).ready(function(){
 
     height = $(window).height();
     
-    if (height<=800) {
-      height = 800;
+    if (height<=400) {
+      height = 400;
     }
 
     $('section').not('.snow').each(function(){
