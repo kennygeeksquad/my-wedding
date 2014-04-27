@@ -1,8 +1,7 @@
 $(document).ready(function(){
 
-  function adjustHeight(){
     var s = skrollr.init({
-      forceHeight: true
+      forceHeight: false
     });
 
     height = $(window).height();
@@ -59,11 +58,6 @@ $(document).ready(function(){
     }
 
     s.refresh($('#home'));
-  }
-
-  adjustHeight();
-
-  $(window).on("resize", adjustHeight());
 
   $('#info').click(function(){
     $('#accommodation .opacity').css('background-color', 'rgba(0,0,0,0.8)');
