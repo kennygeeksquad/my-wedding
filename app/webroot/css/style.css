@@ -9,7 +9,7 @@ h2 { font-size: 50px; }
 h1.intro { color: #fff; font-size: 100px; line-height: 1em; text-shadow: 1px 1px #000; }
 h2.intro { color: #fff; font-size: 50px; line-height: 1em; text-shadow: 1px 1px #000; }
 h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; text-shadow: 1px 1px #000; }
-p, h2 { margin-top: 40px; color: #fff; line-height: 2em; text-shadow: 1px 1px #000; }
+p, h2 { margin-top: 20px; color: #fff; line-height: 2em; text-shadow: 1px 1px #000; }
 .snow p, #message p, #messages p { color: #000; text-shadow: 1px 1px #fff; }
 b { font-weight: 400; }
 a { color: #ef8d01; font-weight: 400; text-decoration: none; }

@@ -9,6 +9,7 @@ $(document).ready(function(){
     });
 
     height = $(window).height();
+    width = $(window).width();
     
     if (height<=400) {
       height = 400;
@@ -18,7 +19,7 @@ $(document).ready(function(){
       $(this).height(height);
     })
 
-    if (height < 700) {
+    if (width < 700) {
 
       $('section.snow').each(function(){
         $(this).height(height);
