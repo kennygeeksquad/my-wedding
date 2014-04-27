@@ -5,7 +5,7 @@
 			<h2 class="intro">We're getting married</h2>
 			<h3 class="intro">Champoluc, Italy - 15th Janauary 2015</h3>
 		</article>
-    <a href="#venue" class="button" data-center="opacity: 1" data-300-top="opacity: 0" data-anchor-target="#home .button">Venue</a>
+    <a href="#venue" class="button" data-center="opacity: 1" data-100-top="opacity: 0" data-anchor-target="#home .button">Venue</a>
 	</div>
 </section>
 
