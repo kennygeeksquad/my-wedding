@@ -11,14 +11,13 @@
   <link rel="stylesheet" type="text/css" href="/css/grid.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<body id="skrollr-body">
+<body>
   <?php echo $this->Session->flash(); ?>
   <main>
     <?php echo $this->fetch('content'); ?>
   </main>
   <?php #echo $this->element('sql_dump'); ?>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="js/skrollr.js"></script>
   <script type="text/javascript" src="js/global.js"></script>
 </body>
 </html>

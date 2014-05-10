@@ -1,10 +1,6 @@
 $(document).ready(function(){
 
   function adjustHeight(){
-    var s = skrollr.init({
-      forceHeight: false
-    });
-
     height = $(window).height();
     width = $(window).width();
     
@@ -57,8 +53,6 @@ $(document).ready(function(){
       $('.middle').css('padding-bottom', height/4);
 
     }
-
-    s.refresh($('#home'));
   }
 
   adjustHeight();
