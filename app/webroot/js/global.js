@@ -34,12 +34,12 @@ $(document).ready(function(){
     } else {
 
       $('section.snow').each(function(){
-        $(this).height(height/2);
+        $(this).height(height/1.8);
       })
 
       $('article.half').each(function(){
         $(this).css('padding-top', 20);
-        $(this).css('height', height/3);
+        $(this).css('height', height/2.7);
       })
 
       $('article').not('.half').each(function(){
@@ -73,9 +73,14 @@ $(document).ready(function(){
   $.fn.scrollTo = function() {
     var element = $(this).data('scroll');
     var scroll = $(element).offset().top;
-    $('body').animate({
+    console.log(scroll);
+    if ($(element).is('.snow')) {
+      scroll = scroll-100;
+    }
+    $('body,html').animate({
       scrollTop: scroll
     }, 3000);
+    console.log(scroll);
   };
 
   $('a.button').click(function(){

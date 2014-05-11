@@ -65,8 +65,8 @@
 </section>
 
 <section id="photos" class="pure-g-r">
-  <div class="middle">
   <div class="opacity pure-u-1">
+  <div class="middle">
   <div class="pure-g-r">
     <img class="pure-u-1-4" src="img/dnm1.png">
     <img class="pure-u-1-4" src="img/dnm2.png">
