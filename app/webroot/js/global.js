@@ -74,7 +74,7 @@ $(document).ready(function(){
     var element = $(this).data('scroll');
     var scroll = $(element).offset().top;
     console.log(scroll);
-    if ($(element).is('.snow') && width<700) {
+    if ($(element).is('.snow') && width>700) {
       scroll = scroll-100;
     }
     $('body,html').animate({
