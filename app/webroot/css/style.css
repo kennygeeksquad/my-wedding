@@ -52,6 +52,9 @@ input::-webkit-input-placeholder { color: #000; }
 .name input { background: rgba(255,255,255,0.5) url('/img/icon-person.png') 3px center no-repeat; background-size: 8%; }
 .length select { background: rgba(255,255,255,0.5) url('/img/icon-cal.png') 3px center no-repeat; background-size: 8%; }
 
+#messages .msgs { background: rgba(255, 255, 255, 0.5); text-align: left; }
+#messages .msgs p { text-shadow: none; }
+
 @media (max-width: 480px) {
   h1.intro { font-size: 45px; }
   h2.intro { font-size: 30px; margin-top: 20px; }

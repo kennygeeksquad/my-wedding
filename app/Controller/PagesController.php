@@ -60,6 +60,9 @@ class PagesController extends AppController {
 
 		$this->set(compact('page', 'subpage', 'title_for_layout', 'meta_for_layout'));
 
+		$this->loadModel('Message');
+		$this->set('messages', $this->Message->find('all'));
+
 		try {
 			$this->render(implode('/', $path));
 		} catch (MissingViewException $e) {
@@ -67,6 +70,20 @@ class PagesController extends AppController {
 				throw $e;
 			}
 			throw new NotFoundException();
+		}
+
+		if ($this->request->is('post')) {
+			if (array_key_exists('Message', $this->request->data)) {
+				$this->loadModel('Message');
+				#exit(var_dump($this->Message->save($this->request->data)));
+				if ($this->Message->save($this->request->data)) {
+
+				} else {
+					throw new Exception("Sorry message not sent");
+				}
+			} else {
+				$this->loadModel('Rsvp');
+			}
 		}
 	}
 }

@@ -52,6 +52,8 @@ $(document).ready(function(){
       $('.middle').css('padding-top', height/4);
       $('.middle').css('padding-bottom', height/4);
 
+      $('.msgs').css('height', height/3);
+
     }
   }
 

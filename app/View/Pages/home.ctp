@@ -102,5 +102,15 @@
 <section id="messages" class="pure-g-r">
   <article class="pure-u-1">
     <h2>Your Messages</h2>
+    <div class="pure-u-1-2 msgs">
+      <?php 
+        foreach ($messages as $m) {
+          echo '<p>';
+          echo $m['Message']['message'];
+          echo '<br />'.'From: '.$m['Message']['name'];
+          echo '</p>';
+        }
+      ?>
+    </div>
   </article>
 </section>
