@@ -57,7 +57,7 @@ input::-webkit-input-placeholder { color: #000; }
 
 @media (max-width: 768px) {
   #messages .msgs { width: 96%; margin: 0 2%; }
-  .panel { overflow: scroll; width: 96%; margin: 0 2%; height: 100%; left: 1%; top: 1%; }
+  .panel { overflow: scroll; width: 98%; height: 100%; left: 1%; top: 1%; }
 }
 
 @media (max-width: 480px) {
