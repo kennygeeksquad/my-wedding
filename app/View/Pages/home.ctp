@@ -27,7 +27,7 @@
     <article class="pure-u-1">
       <h2>Where we’re staying</h2>
       <p>The Bride and Groom will be staying here in Hotel de Champoluc <b>January 11-18th 2015</b>.<br />
-      This hotel is Ski in Ski, out meaning it’s right next to the slopes.<br />
+      This hotel is Ski in Ski out, meaning it’s right next to the slopes.<br />
       If you’re thinking of joining us. More info is available <a href="#" id="info">here</a> or you can <a href="mailto:matthewstephens@digidev.co.uk">contact us</a></p>
     </article>
      <a data-scroll="#ceremony" class="button">Ceremony</a>
