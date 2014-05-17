@@ -1,6 +1,6 @@
 <?php 
 
-echo $this->Form->create('rsvp', array('class'=>'pure-u-1-2', 'inputDefaults'=>array('label'=>false)));
+echo $this->Form->create('Rsvp', array('class'=>'pure-u-1-2', 'inputDefaults'=>array('label'=>false)));
 echo '<div class="pure-u-1-2">';
 echo $this->Form->input('name', array('placeholder'=>'Name', 'div'=>array('class'=>'input pure-u-1 name')));
 echo $this->Form->input('name2', array('placeholder'=>'Name', 'div'=>array('class'=>'input pure-u-1 name')));

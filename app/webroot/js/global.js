@@ -81,7 +81,7 @@ $(document).ready(function(){
     }
     $('body,html').animate({
       scrollTop: scroll
-    }, 3000);
+    }, 2000);
     console.log(scroll);
   };
 

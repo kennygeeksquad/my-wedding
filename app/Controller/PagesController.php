@@ -73,16 +73,23 @@ class PagesController extends AppController {
 		}
 
 		if ($this->request->is('post')) {
+			$meta_for_layout = "Deana & Matt - 15th January 2015, Champoluc, Italy. The website has been styled in a parallax fashion to give information to our guests.";
 			if (array_key_exists('Message', $this->request->data)) {
 				$this->loadModel('Message');
-				#exit(var_dump($this->Message->save($this->request->data)));
 				if ($this->Message->save($this->request->data)) {
-
+					$this->Session->setFlash('Thank you for your message.', 'default', array('class'=>'pure-u-1'));
+					$this->redirect($this->referer());
 				} else {
 					throw new Exception("Sorry message not sent");
 				}
 			} else {
 				$this->loadModel('Rsvp');
+				if ($this->Rsvp->save($this->request->data)) {
+					$this->Session->setFlash('Thank you for your message.', 'default', array('class'=>'pure-u-1'));
+					$this->redirect($this->referer());
+				} else {
+					throw new Exception("Sorry message not sent");
+				}
 			}
 		}
 	}

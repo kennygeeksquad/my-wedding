@@ -5,7 +5,7 @@ body { width: 100%; min-height: 100%; font: 18px/1.5em 'Roboto', sans-serif; fon
 
 h1, h2, h3 { font-family: 'Calligraffitti', cursive; color: #fff; }
 h2 { font-size: 50px; }
-.snow h2, #message h2 , #messages h2 { color: #ce2027; line-height: 2em; text-shadow: 1px 1px #fff; }
+.snow h2, #message h2 , #messages h2, #flashMessage { color: #ce2027; line-height: 2em; text-shadow: 1px 1px #fff; }
 h1.intro { color: #fff; font-size: 100px; line-height: 1em; text-shadow: 1px 1px #000; }
 h2.intro { color: #fff; font-size: 50px; line-height: 1em; text-shadow: 1px 1px #000; }
 h3.intro { color: #fff; font-size: 24px; line-height: 2.5em; text-shadow: 1px 1px #000; }
@@ -41,7 +41,7 @@ article:not(.half) { padding-top: 13%; }
 #message .input { padding: 0 15%; }
 #message .textarea { padding: 0 7%; }
 #rsvp .input input, select, #message .input input { width: 90%; padding-left: 10%; height: 34px; border: none; font-size: 22px; }
-#message .input textarea { width: 98%; }
+#message .input textarea { width: 98%; font-size: 16px; height: 100px; }
 #rsvp .input select { width: 100%; }
 #rsvp .submit { margin-top: 75px; padding: 0 11%; }
 #message .submit { padding: 0 11%; }
@@ -52,7 +52,7 @@ input::-webkit-input-placeholder { color: #000; }
 .name input { background: rgba(255,255,255,0.5) url('/img/icon-person.png') 3px center no-repeat; background-size: 8%; }
 .length select { background: rgba(255,255,255,0.5) url('/img/icon-cal.png') 3px center no-repeat; background-size: 8%; }
 
-#messages .msgs { background: rgba(255, 255, 255, 0.5); text-align: left; }
+#messages .msgs { background: rgba(255, 255, 255, 0.5); text-align: left; overflow: scroll; }
 #messages .msgs p { text-shadow: none; }
 
 @media (max-width: 480px) {

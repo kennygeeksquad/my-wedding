@@ -4,6 +4,7 @@
 			<h1 class="intro">Matt and Deana</h1>
 			<h2 class="intro">We're getting married</h2>
 			<h3 class="intro">Champoluc, Italy - 15th Janauary 2015</h3>
+      <h3 class="intro"><?php echo $this->Session->flash(); ?></h3>
 		</article>
     <a data-scroll="#venue" class="button">Venue</a>
 	</div>
