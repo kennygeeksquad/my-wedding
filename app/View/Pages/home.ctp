@@ -1,117 +1,107 @@
 <section id="home" class="pure-g-r">
 	<div class="opacity pure-u-1">
 		<article class="pure-u-1">
-			<h1 class="intro">Matt and Deana</h1>
-			<h2 class="intro">We're getting married</h2>
-			<h3 class="intro">Champoluc, Italy - 15th Janauary 2015</h3>
+			<h1 class="intro">Kenny and Kat</h1>
+			<h2 class="intro">Are getting married</h2>
+			<h3 class="intro">London, UK - 28th May 2016</h3>
       <h3 class="intro"><?php echo $this->Session->flash(); ?></h3>
 		</article>
-    <a data-scroll="#venue" class="button">Venue</a>
+    <a data-scroll="#ceremony" class="button">Ceremony</a>
 	</div>
 </section>
 
-<section id="venue" class="snow pure-g-r">
+<section id="ceremony" class="pure-g-r">
   <div class="pure-u-1">
     <article class="pure-u-1 half">
-      <h2>We're getting married</h2>
-      <p>Deana and Matt are engaged to be married on <b>January 11th-18th 2015</b>.<br />
-      The ceremony and reception will be held in <b>Champoluc Italy</b>.<br />
-      There will be snow so make sure you wrap up warm.</p>
+      <h2>The church</h2>
+      <p>Our wedding ceremony will take place at <b>2pm on May 28th 2016</b> at our church, <a href="http://www.sthelens.org.uk">St. Helen's Bishopsgate</a>. Please aim to be seated by 1.50pm. The ceremony will last about an hour.<br />
+      The church has step-free access for prams, buggies & wheelchairs, and there are baby changing facilities if you need them.<br />
+      The church is nearest <b>Liverpool Street Station</b>, but is also within walking distance of Bank & Monument Tube stations. The church is right next to The Gherkin!<br />
+      You can see the church's location on this map, and if you want any more information please just <a href="mailto:kennethmcquarrie@ntlworld.com">contact us!</p>
     </article>
-    <a data-scroll="#accommodation" class="button">Accommodation</a>
+    <a data-scroll="#reception" class="button">Reception</a>
   </div>
 </section>
 
-<section id="accommodation" class="pure-g-r">
+<section id="reception" class="pure-g-r">
   <div class="opacity pure-u-1">
     <article class="pure-u-1">
-      <h2>Where we’re staying</h2>
-      <p>The Bride and Groom will be staying here in Hotel de Champoluc <b>January 11-18th 2015</b>.<br />
-      This hotel is Ski in Ski out, meaning it’s right next to the slopes.<br />
-      If you’re thinking of joining us. More info is available <a href="#" id="info">here</a> or you can <a href="mailto:matthewstephens@digidev.co.uk">contact us</a></p>
+      <h2>Reception</h2>
+      <p>Our reception is being held at <b>London Zoo</b> (yes, really)!<br />
+      The Zoo has a lovely event hall, where the majority of our reception will take place, and again it’s easily accessible for prams & wheelchairs. It overlooks the Outback Enclosure, so you will be able to watch the kangaroos, wallabies and emus if you get bored during the speeches!<br />
+      There will be a drinks reception with nibbles upon arrival, a barbecue evening meal, and a buffet later in the evening. Vegetarian options will be provided and Kenny’s anaphylaxis means everything will be gluten-free!<br />
+      But there’s more (animals) to keep you entertained! While we have our compulsory photographs taken with the wedding party, every guest will have a free one-hour pass to wander round the Zoo and take in the sights of penguins, tigers and more! There’s no obligation to use the pass, but we hope it will relieve any boredom while you wait. Obviously if you are planning to wander round the Zoo, sensible footwear would be wise.</p>
     </article>
-     <a data-scroll="#ceremony" class="button">Ceremony</a>
-    <div class="panel pure-g-r">
-    <div class="pure-u-1-2">
-      <h2>A week</h2>
-      <p>The best deal we found was provided by Laura, a travel agent at our local Thomson. Please contact her on the below email address, adding “FAO Laura” in the subject line to be included in our plans and travel.</p>
-      <p>Please quote the ref: <b>106355</b> in your email so that Laura can give you the correct info.</p>
-      <a href="mailto:gillingham@thomson-shop.co.uk">gillingham@thomson-shop.co.uk</a>
-      <p>Hotel de Champoluc, Champoluc, Italy</p>
-      <a href="www.crystalski.co.uk">www.crystalski.co.uk</a>
-    </div>
-    <div class="pure-u-1-2">
-      <h2>Less than a week</h2>
-      <p>We understand a week, if you don’t Snowboard could be a little too much. Feel free to give yourself a short break and of course share our special day.</p>
-      <p>Below is a link showing short breaks and lots of different hotels to suit everyones budget.</p>
-      <p>Please be aware that booking with the below doesn’t include flights. The closest airport is Turin which is a 90 minute trasnfer to Champoluc.</p>
-      <a href="www.ski-2.com">www.ski-2.com</a>
-      <p>Check out <a href="www.easyjet.com">www.easyjet.com</a> for flights.</p>
-    </div>
-    </div>
-  </div>
+     <a data-scroll="#transport" class="button">Transport</a>
+     </div>
 </section>
 
-<section id="ceremony" class="snow pure-g-r">
-  <div class="pure-u-1">
-    <article class="pure-u-1 half">
-      <h2>Snowy Mountain Wedding</h2>
-      <p>The wedding ceremony itself will take place in Mascognaz village nearby to Champoluc.<br />
-      Photographs will also be taken on the mountain including some action shots.<br />
-      We hope that you can join us.</p>
-    </article>
-    <a data-scroll="#rsvp" class="button">Rsvp</a>
-    <a data-scroll="#message" class="button">Messages</a>
-  </div>
-</section>
-
-<section id="photos" class="pure-g-r">
+<section id="transport" class="pure-g-r">
   <div class="opacity pure-u-1">
-  <div class="middle">
-  <div class="pure-g-r">
-    <img class="pure-u-1-4" src="img/dnm1.png">
-    <img class="pure-u-1-4" src="img/dnm2.png">
-    <img class="pure-u-1-4" src="img/dnm3.png">
-    <img class="pure-u-1-4" src="img/dnm4.png">
-  </div>
-  </div>
-  </div>
+    <article class="pure-u-1">
+      <h2>Transport</h2>
+      <p>We will be providing a classic red London Bus to transport guests from the church to the reception, so if you are not London based and/or have young children, there’s no need to worry.<br />
+      We expect most guests to be able to get on the bus but if you are a Londoner (or a brave out-of-towner) and you’re happy to get the Tube, then it’s a short journey on the Northern Line from Bank to Regent’s Park, and a 5 minute walk from there to the Zoo.<br />
+      We would suggest using public transport to get to the church and to get home from the reception, as parking in London is incredibly limited. Both the church and the Zoo are very well serviced by Tubes, buses and taxis.</p>
+    </article>
+     <a data-scroll="#hotels" class="button">Hotels</a>
+     </div>
+</section>
+
+<section id="hotels" class="pure-g-r">
+  <div class="opacity pure-u-1">
+    <article class="pure-u-1">
+      <h2>Hotels</h2>
+      <p>For guests who need or want to stay overnight or for the weekend, we’d suggest looking at hotels near the Zoo – there are loads and it will make it easier in the evening if you’re nearby.<br />
+      If anyone wants us to help or make suggestions of good hotels, please contact us.</p>
+    </article>
+     <a data-scroll="#rsvp" class="button">RSVP</a>
+     </div>
 </section>
 
 <section id="rsvp" class="pure-g-r">
   <div class="opacity pure-u-1">
   <article class="pure-u-1">
     <h2>RSVP</h2>
-    <p>If you’ve decided to join us on our special day, please fill out the form below.</p>
+    <p>If you can join us on our special day, please fill out the form below (please fill it in once for each guest, including children & babies). If you can’t make it but want to leave us a message, you can do that further down.</p>
     <div class="pure-g-r">
     <?php echo $this->element('rsvp/form'); ?>
     </div>
   </article>
+  <a data-scroll="#messages" class="button">Messages</a>
+  <a data-scroll="#gifts" class="button">Gift List</a>
   </div>
 </section>
 
-<section id="message" class="pure-g-r snow">
+<section id="messages" class="pure-g-r snow">
   <article class="pure-u-1 half">
     <h2>Leave a Message</h2>
-    <p>Can’t make it to the wedding? Worry not!<br />Leave us a message below.</p>
+    <p>Can’t make it to our wedding? We’ll miss you being there, but if you want to leave us a message please do that here.<br />
+    Please say if you’re happy for your message to be read out on the day!</p>
     <div class="pure-g-r">
     <?php echo $this->element('message/form'); ?>
     </div>
   </article>
+  <a data-scroll="#gift" class="button">Gift List</a>
 </section>
 
-<section id="messages" class="pure-g-r">
-  <article class="pure-u-1">
-    <h2>Your Messages</h2>
-    <div class="pure-u-1-2 msgs">
-      <?php 
-        foreach ($messages as $m) {
-          echo '<p>';
-          echo $m['Message']['message'];
-          echo '<br />'.'From: '.$m['Message']['name'];
-          echo '</p>';
-        }
-      ?>
-    </div>
-  </article>
+<section id="gift" class="pure-g-r">
+  <div class="opacity pure-u-1">
+    <article class="pure-u-1">
+      <h2>Gift List</h2>
+      <p>The most important thing to us is that you are part of our day and we already have a lot of the items we need to set up our home together. We also appreciate that a lot of people are travelling from far away lands, so please don’t feel obliged to spend any more money!<br />
+      However, we have a <a href="#">John Lewis Gift List here</a>, which allows you to contribute as much or as little as you’d like to our honeymoon, all of which will be greatly appreciated. You can contribute anonymously or leave us a personal message if you wish.</p>
+    </article>
+     <a data-scroll="#summary" class="button">Summary</a>
+     </div>
+</section>
+
+<section id="summary" class="pure-g-r">
+  <div class="opacity pure-u-1">
+    <article class="pure-u-1">
+      <h2>Our wedding</h2>
+      <p>We hope to see you on Saturday 28th May 2016, to be part of our wedding day.<br />
+      We hope everyone has a fun day whatever the weather :)</p>
+    </article>
+     </div>
 </section>
