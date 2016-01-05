@@ -14,9 +14,9 @@
   <div class="pure-u-1">
     <article class="pure-u-1 half">
       <h2>The church</h2>
-      <p>Our wedding ceremony will take place at <b>2pm on May 28th 2016</b> at our church, <a href="http://www.sthelens.org.uk">St. Helen's Bishopsgate</a>. Please aim to be seated by 1.50pm. The ceremony will last about an hour.<br />
-      The church has step-free access for prams, buggies & wheelchairs, and there are baby changing facilities if you need them.<br />
-      The church is nearest <b>Liverpool Street Station</b>, but is also within walking distance of Bank & Monument Tube stations. The church is right next to The Gherkin!<br />
+      <p>Our wedding ceremony will take place at <b>2pm on May 28th 2016</b> at our church, <a href="http://www.st-helens.org.uk">St. Helen's Bishopsgate</a>. Please aim to be seated by 1.50pm. The ceremony will last about an hour.<br />
+      The church has step-free access for prams, buggies &amp; wheelchairs, and there are baby changing facilities if you need them.<br />
+      The church is nearest <b>Liverpool Street Station</b>, but is also within walking distance of Bank &amp; Monument Tube stations. The church is right next to The Gherkin!<br />
       You can see the church's location on this map, and if you want any more information please just <a href="mailto:kennethmcquarrie@ntlworld.com">contact us!</p>
     </article>
     <a data-scroll="#reception" class="button">Reception</a>
@@ -28,7 +28,7 @@
     <article class="pure-u-1">
       <h2>Reception</h2>
       <p>Our reception is being held at <b>London Zoo</b> (yes, really)!<br />
-      The Zoo has a lovely event hall, where the majority of our reception will take place, and again it’s easily accessible for prams & wheelchairs. It overlooks the Outback Enclosure, so you will be able to watch the kangaroos, wallabies and emus if you get bored during the speeches!<br />
+      The Zoo has a lovely event hall, where the majority of our reception will take place, and again it’s easily accessible for prams &amp; wheelchairs. It overlooks the Outback Enclosure, so you will be able to watch the kangaroos, wallabies and emus if you get bored during the speeches!<br />
       There will be a drinks reception with nibbles upon arrival, a barbecue evening meal, and a buffet later in the evening. Vegetarian options will be provided and Kenny’s anaphylaxis means everything will be gluten-free!<br />
       But there’s more (animals) to keep you entertained! While we have our compulsory photographs taken with the wedding party, every guest will have a free one-hour pass to wander round the Zoo and take in the sights of penguins, tigers and more! There’s no obligation to use the pass, but we hope it will relieve any boredom while you wait. Obviously if you are planning to wander round the Zoo, sensible footwear would be wise.</p>
     </article>
